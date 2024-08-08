@@ -13,17 +13,17 @@ Original file is located at
 #!pip install pypdf
 
 !pip install langchain-community
-#!pip install voyageai
-#!pip install pypdf
+!pip install voyageai
+!pip install pypdf
 
-#!python --version
+!python --version
 
-#!sudo apt-get update -y
-#!sudo apt-get install python3.8 -y
-#!sudo update-alternatives --install /usr/local/bin/python3 python3 /usr/bin/python3.8 1
-#!sudo update-alternatives --config python3
+!sudo apt-get update -y
+!sudo apt-get install python3.8 -y
+!sudo update-alternatives --install /usr/local/bin/python3 python3 /usr/bin/python3.8 1
+!sudo update-alternatives --config python3
 
-#!python --version
+!python --version
 
 !pip install --upgrade  pip
 #!pip install -r requirements.txt
