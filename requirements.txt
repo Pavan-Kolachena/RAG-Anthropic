@@ -7,6 +7,10 @@ langchain-google-genai
 langchain-core
 google-generativeai
 langchain
-Anthropic
+anthropic
+voyageai
+faiss-cpu
+psutil
+
 
 
