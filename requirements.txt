@@ -11,6 +11,7 @@ anthropic
 voyageai
 faiss-cpu
 psutil
+PyPDFLoader
 
 
 
