@@ -26,7 +26,7 @@ Original file is located at
 !python --version
 
 !pip install --upgrade  pip
-!pip install -r requirements.txt
+#!pip install -r requirements.txt
 
 # Commented out IPython magic to ensure Python compatibility.
 import os
