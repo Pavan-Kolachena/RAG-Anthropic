@@ -12,6 +12,7 @@ Original file is located at
 #!pip install voyageai
 #!pip install pypdf
 
+!pip install langchain-google-genai>=0.0.1,<=0.0.9
 !pip install langchain-community
 !pip install voyageai
 !pip install pypdf
