@@ -7,11 +7,23 @@ Original file is located at
     https://colab.research.google.com/drive/1rNJmbV2FnBiFoTqMySqpWNf1xcnXByCP
 """
 
+!pip install streamlit
+!pip install langchain
+!pip install voyageai
+!pip install pypdf
+
+!pip install langchain-community
+!pip install voyageai
+!pip install pypdf
+
 # Commented out IPython magic to ensure Python compatibility.
 import os
 import streamlit as st
 from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import CharacterTextSplitter
+
+import psutil  # for process monitoring
+import gc  # for garbage collection
 
 # %env VOYAGE_API_KEY="pa-2AE_4A2HCYvnRQWje-kaov6F2Oyz8cDnNsO0qbHGYWI"
 #from langchain.embeddings import AnthropicEmbeddings
@@ -93,3 +105,7 @@ else:
 # Clean up
 if os.path.exists("temp.pdf"):
     os.remove("temp.pdf")
+
+# Memory management
+gc.collect()
+print(f"Memory usage: {psutil.Process().memory_info().rss / 1024 / 1024:.2f} MB")
