@@ -7,14 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1rNJmbV2FnBiFoTqMySqpWNf1xcnXByCP
 """
 
-!pip install streamlit
-!pip install langchain
-!pip install voyageai
-!pip install pypdf
+#!pip install streamlit
+#!pip install langchain
+#!pip install voyageai
+#!pip install pypdf
 
-!pip install langchain-community
-!pip install voyageai
-!pip install pypdf
+#!pip install langchain-community
+#!pip install voyageai
+#!pip install pypdf
 
 # Commented out IPython magic to ensure Python compatibility.
 import os
