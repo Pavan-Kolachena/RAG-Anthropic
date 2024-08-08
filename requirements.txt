@@ -3,7 +3,7 @@ huggingface_hub
 python-dotenv
 streamlit
 PyPDF2
-langchain-google-genai
+langchain-google-genai>=0.0.1,<=0.0.9
 langchain-core
 google-generativeai
 langchain
@@ -12,6 +12,7 @@ voyageai
 faiss-cpu
 psutil
 PyPDFLoader
+python->=3.9,<4.0
 
 
 
