@@ -7,6 +7,28 @@ Original file is located at
     https://colab.research.google.com/drive/1rNJmbV2FnBiFoTqMySqpWNf1xcnXByCP
 """
 
+!pip install streamlit
+!pip install langchain
+!pip install voyageai
+!pip install pypdf
+
+!pip install langchain-community
+!pip install voyageai
+!pip install pypdf
+
+!python --version
+
+!sudo apt-get update -y
+!sudo apt-get install python3.8 -y
+!sudo update-alternatives --install /usr/local/bin/python3 python3 /usr/bin/python3.8 1
+!sudo update-alternatives --config python3
+
+!python --version
+
+!pip install --upgrade  pip
+!pip install -r requirements.txt
+
+
 #!pip install streamlit
 #!pip install langchain
 #!pip install voyageai
