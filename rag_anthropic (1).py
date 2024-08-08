@@ -12,7 +12,7 @@ Original file is located at
 #!pip install voyageai
 #!pip install pypdf
 
-#!pip install langchain-community
+!pip install langchain-community
 #!pip install voyageai
 #!pip install pypdf
 
